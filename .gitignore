@@ -1,20 +1,12 @@
+# 虚拟环境
+.venv/
+
 # Python 缓存文件
 __pycache__/
 *.pyc
-*.pyo
 
-# 虚拟环境
-venv/
-env/
-.venv/
-
-# 密钥/环境变量文件
+# 环境变量文件（关键！）
 .env
-*.key
 
-# Streamlit 缓存
-.streamlit/
-
-# 系统文件
-.DS_Store
-Thumbs.db
+# VS Code 设置
+.vscode/
